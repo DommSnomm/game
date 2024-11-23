@@ -1,0 +1,113 @@
+* {   /*calls everything*/
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: url(stardew.jpg);
+    background-attachment: fixed;
+    font-family: "Nunito", sans-serif;
+  }
+
+  main {
+    
+    margin: auto;
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 1rem; /*unit of measurement which draws from the font size*/
+    margin-left: 140px;
+
+  }
+
+  nav {
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 148px; /*the text cant be closer than 148px form the left side*/
+    padding: 0px 0px;
+  }
+
+  .sidebar { 
+    height: 100%; /*height of the top to the bottom of the page*/
+    width: 140; /*width of the box*/
+    position: fixed; /*the box cannot move*/
+    z-index: 1; /*stay on top of other text*/
+    top: 0; /*top of the screen*/
+    left: 0; /*far left of the screen*/
+    background: #eee;
+    overflow-x:hidden; /*scroll bar cant go on the box*/
+    padding-top: 20px;
+  }
+
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+
+  .sidebar a:hover { /*when hovering over text make it this color*/
+color: #064579;
+  }
+
+  .text {
+    max-width: 900px; /*makes all code under main not be able to cover more than 900px of the screen*/
+    display:block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: auto;
+    width: 100%;
+    background: #ffff;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .deadl { /*dead link*/
+    font-size: 25px;
+    color: black;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  ul {
+    text-align: left;
+
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .box {
+    padding: 10px;
+  }
+
+  .banner {
+    display:block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .boarders {
+    border: 3px solid black;
+    padding: 5px;
+  }
+
+  .clearfix {
+    overflow: auto;
+  }
+
+  .centre {
+    text-align: center;
+  }

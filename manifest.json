@@ -1,0 +1,25 @@
+{
+    "lang": "en-us",
+    "name": "Game Reviews",
+    "short_name": "GameReview",
+    "description": "Game Reviews",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/Logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpoes": "any"
+        },
+        {
+            "src": "/Logo2.png",
+            "sizes": "191x192",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="Style.css"> <!--calls the style.css file-->
+        <link rel="shortcut icon" href="Logo.png" />
+        <link rel="manifest" href="/manifest.json">
+        <title>Game Reviews</title>
+    </head>
+    <body>
+        <img src="banner.png" height="200" width="100%" class="banner" />
+        <main> <!--another layer inside the body for freedom purposes-->
+            <div class="sidebar">
+                <p class="deadl">Home</p>
+                <a href="Reviews.html">Reviews</a>
+                <a href="Content.html">About</a>
+            </div>
+
+            <div class="text">
+                <p style="text-align: center;">Welcome to the website</p>
+            </div>
+        </main>
+        
+            <script>
+            if('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('/sw.js', { scope: '/' });
+            }
+            </script>
+    </body>
+</html>
